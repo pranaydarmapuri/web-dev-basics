@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello HTML</title>
+
+    <style>
+      table *, table {
+        border: 1px solid black;
+        
+      }
+
+      table {
+        margin-bottom: 300px;
+        /* border-collapse: collapse; */
+      }
+
+      .heading-1 {
+        color: burlywood;
+        font-weight: 400;
+        font-size: 32px;
+        font-style: italic;
+        font-family: sans-serif;
+      }
+
+      .heading-1:hover {
+        color: black;
+      }
+
+      .intro {
+        text-transform: uppercase;
+        font-style: normal;
+      }
+
+      #para {
+        color: yellowgreen;
+      }
+
+      a[id] {
+        text-decoration: underline;
+      }
+
+      h1 {
+        border: 3px solid transparent;
+        padding: 20px;
+        background-image: url('/assets/download.jpg');
+        
+      }
+
+      input {
+        margin: 10px;
+        width: 300px;
+        border: 2px dashed rgba(128, 128, 128, 0.529);
+        border-radius: 10px;
+      }
+
+      form > [type="password"] {
+        border-color: brown;
+
+        border-width: 3px;
+        border-style: dashed;
+      }
+
+      button[type="reset"] ~ [type="submit"] {
+        background-color: aquamarine;
+      }
+
+      button[type="reset"] + [type="submit"] {
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1 class="heading-1 intro" >Welcome</h1>
+    <span class="heading-1">Welcome</span>
+    <span>iiub</span>
+    <span class=""> This is empty</span>
+    <p id="para" >This is a simple portfolio page built using HTML and CSS.</p>
+    <a class="heading-1" href="https://www.example.com" target="_blank">Check out my work</a>
+    
+    <!-- <figure>
+      <img src="/assets/download.jpg" alt="A preview of my project" />
+      <figcaption>Sunflower</figcaption>
+    </figure> -->
+
+    <picture>
+      <source media="(min-width: 600px)" srcset="/img.jpg">
+      <figure>
+        <img src="/assets/download.jpg" alt="A preview of my project" />
+        <figcaption>Sunflower</figcaption>
+      </figure>
+    </picture>
+    <video width="300" autoplay loop controls >
+      <source src="/assets/v1.mp4">
+    </video>
+
+    <audio controls src="/assets/v2.mp4">
+      
+    </audio>
+    
+
+    <!-- Non Semantic tags -->
+    <div>
+      <span></span>
+    </div>
+    <div>
+      <div>My Website</div>
+      <div>This is a <b>para</b>.</div>
+    </div>
+    <span>Hey</span><span>👋</span>
+
+    <section>
+      This is block
+      <span
+        >This is span
+        <div>This is div</div>
+      </span>
+    </section>
+
+    <!-- Semantic tags -->
+
+    <header id="header-id" class="cls"></header>
+    <header class="cls"></header>
+    <header></header>
+    <main></main>
+    <article class="cls"></article>
+    <section></section>
+    <aside class="cls"></aside>
+
+    <form method="get" action="/assets/download.jpg">
+      <div>
+        <input type="number" name="username" max="10" min="5" />
+      <input type="password" name="password" value="90000" required />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+      <button type="submit">Submit</button>
+    </div>
+    <input type="password" name="password" value="90000" required />
+    </form>
+
+    <table>
+      <caption>User in app</caption>
+      <thead>
+        <tr>
+          <th>S No.</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">1</td>
+          <td>Alex</td>
+        </tr>
+        <tr>
+          <td>Alex 2</td>
+        </tr>
+        <tr>
+          <td colspan="2">2</td>
+          <td>Bob</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
+    <footer></footer>
+  </body>
+</html>

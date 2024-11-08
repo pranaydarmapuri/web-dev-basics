@@ -1,0 +1,90 @@
+{
+  "success": true,
+  "city": "hyderabad",
+  "result": [
+    {
+      "date": "25.10.2024",
+      "day": "Friday",
+      "icon": "https://cdnydm.com/permedia/fji5nQfowvEYJBdnLsvrgA.png?size=512x512",
+      "description": "scattered clouds",
+      "status": "Clouds",
+      "degree": "29.14",
+      "min": "20.11",
+      "max": "30.73",
+      "night": "21.54",
+      "humidity": "44"
+    },
+    {
+      "date": "26.10.2024",
+      "day": "Saturday",
+      "icon": "https://cdnydm.com/permedia/fji5nQfowvEYJBdnLsvrgA.png?size=512x512",
+      "description": "scattered clouds",
+      "status": "Clouds",
+      "degree": "27.37",
+      "min": "20.14",
+      "max": "29.34",
+      "night": "22.23",
+      "humidity": "59"
+    },
+    {
+      "date": "27.10.2024",
+      "day": "Sunday",
+      "icon": "https://cdnydm.com/permedia/LC1i84c3Z2MtLUDNbzWz8A.png?size=512x512",
+      "description": "sky is clear",
+      "status": "Clear",
+      "degree": "27.57",
+      "min": "20.09",
+      "max": "29.27",
+      "night": "24.45",
+      "humidity": "51"
+    },
+    {
+      "date": "28.10.2024",
+      "day": "Monday",
+      "icon": "https://cdnydm.com/permedia/OFLicX5Yqfx3leLtY9bD_w.png?size=512x512",
+      "description": "overcast clouds",
+      "status": "Clouds",
+      "degree": "27.43",
+      "min": "22.78",
+      "max": "27.43",
+      "night": "24.55",
+      "humidity": "51"
+    },
+    {
+      "date": "29.10.2024",
+      "day": "Tuesday",
+      "icon": "https://cdnydm.com/permedia/OFLicX5Yqfx3leLtY9bD_w.png?size=512x512",
+      "description": "broken clouds",
+      "status": "Clouds",
+      "degree": "28.41",
+      "min": "23.67",
+      "max": "30.11",
+      "night": "23.92",
+      "humidity": "55"
+    },
+    {
+      "date": "30.10.2024",
+      "day": "Wednesday",
+      "icon": "https://cdnydm.com/permedia/fji5nQfowvEYJBdnLsvrgA.png?size=512x512",
+      "description": "scattered clouds",
+      "status": "Clouds",
+      "degree": "29.88",
+      "min": "22.5",
+      "max": "30.7",
+      "night": "25.58",
+      "humidity": "47"
+    },
+    {
+      "date": "31.10.2024",
+      "day": "Thursday",
+      "icon": "https://cdnydm.com/permedia/zvWjzjmkp5WUUEWob4d48Q.png?size=512x512",
+      "description": "light rain",
+      "status": "Rain",
+      "degree": "29.52",
+      "min": "22.04",
+      "max": "29.52",
+      "night": "23",
+      "humidity": "54"
+    }
+  ]
+}

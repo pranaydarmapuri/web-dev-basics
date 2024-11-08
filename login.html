@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      .error {
+        border: 5px solid red;
+      }
+
+      .success {
+        border: 4px solid green;
+      }
+
+      .card {
+        margin-top: 1rem;
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+
+        background-color: bisque;
+        border-radius: .7rem;
+      }
+
+      .card.done  {
+        opacity: 0.5;
+      }
+
+      .card.done [data-title] {
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is login</h1>
+    <form action="">
+      <input type="text" name="password" id="password" />
+      <span id="pwd-hint"></span>
+    </form>
+
+    <div data-list=""></div>
+
+    <template id="temp">
+      <div class="card">
+        <span data-id>1</span>
+        <span data-title>title</span>
+      </div>
+    </template>
+
+    <script src="./main.js"></script>
+    <script>
+      // const passwordField = document.getElementById('password')
+
+      // passwordField.onkeyup = event => {
+
+      //   console.log(event.target.value, 'onchange')
+      // }
+
+      // console.log(passwordField)
+
+      // String, Number, Boolean, Null, Undefined, Symbol
+      // let a = 10
+
+      // c = 10.9
+
+      // let u = null
+
+      // const b = 20
+
+      // let name = 'a'
+
+      // const d = true
+      // const e = false
+
+      // // false 0 "" [] null undefined {}
+
+      // if (!a) {
+      //   console.log('w')
+      // }
+
+      // console.log(a, typeof a)
+      // console.log(c, typeof c)
+      // console.log(d, typeof d)
+      // console.log(name)
+
+      // a = 'var'
+
+      // while (1) {
+      //   console.log('from while')
+
+      //   break;
+      // }
+
+      // let arr = [1, 23, 5, 6, 78, 99, 4, 5, 42]
+
+      // arr.unshift(90)
+
+      // console.log(arr.filter((e) =>  e%2 == 0 ))
+
+      // console.log(arr.map((e) => e * 2))
+
+      // console.log(arr.includes(99))
+
+      // class Person {
+      //   name
+      //   constructor(name) {
+      //     this.name = name
+      //   }
+      // }
+
+      // const p = new Person('Alex')
+
+      // console.log(p)
+
+      // const book = {
+      //   title: 'Python for everybody',
+      //   edition: 16
+      // }
+
+      // console.log(book)
+
+      // try {
+      //   let result = riskyFunction()
+      // } catch (error) {
+      //   console.error('Something went wrong:', error)
+      // }
+
+      // for (let i of 'JavaScript') {
+      //   console.log('for loop', i)
+      // }
+
+      // // console.log(a, typeof a)
+
+      // // console.log(u, typeof u)
+
+      // function add(a, b) {
+      //   return a + b
+      // }
+
+      // const add1 = function (a, b) {
+      //   return a + b
+      // }
+
+      // const add2 = (a, b) => {
+      //   return a + b
+      // }
+
+      // const add3 = (a, b) => a + b
+
+      // console.log(add(19, 39))
+      // console.log(add1(19, 39))
+      // console.log(add2(19, 39))
+      // console.log(add3(19, 39))
+    </script>
+  </body>
+</html>
